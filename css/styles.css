@@ -30,11 +30,11 @@ body {
 	background-color: #fff;
 }
 
-.active-nav {
+.active-nav { /* Play slide in anim */
 	animation: slide-in 0.7s forwards;
 }
 
-.deactive-nav {
+.deactive-nav { /* Play slide out anim */
 	animation: slide-out 0.2s reverse;
 }
 
@@ -60,7 +60,7 @@ body {
 	}
 }
 
-.navigation-item {
+.navigation-item { /* Menu li item */
 	list-style: none;
 	text-decoration: none;
 	color: inherit;
@@ -68,11 +68,11 @@ body {
 	line-height: 50px;
 }
 
-.active-item {
+.active-item { /* Active page li item */
 	color: #00B2EE;
 }
 
-#hamburger{ /* Mobile/Tablet menu Icon */
+#hamburger{ /* Menu Icon for mobile/tablet */
 	color: #fff;
 	margin: 17.5px;
 	padding: 0;
@@ -80,7 +80,7 @@ body {
 	line-height: 35px;
 }
 
-#text-logo {
+#text-logo { /* Play slide in anim */
 	position: absolute;
 	left: 70px;
 	right: 70px;
@@ -91,6 +91,8 @@ body {
 	color: #fff;
 	text-align: center;
 }
+
+/* Desktop and large tablet styles */
 
 @media only screen and (min-width: 600px) {
 	#navigation {
